@@ -1,0 +1,11 @@
+fastapi==0.68.0
+json5==0.9.5
+jupyter==1.0.0
+tensorflow==2.5.0
+numpy==1.19.5
+pydantic==1.8.2
+starlette==0.14.2
+unicodecsv==0.14.1
+urllib3==1.26.6
+uvicorn==0.14.0
+
