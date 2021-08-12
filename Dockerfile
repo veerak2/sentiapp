@@ -1,4 +1,4 @@
-FROM python:3.8.8-slim-buster
+FROM tiangolo/uvicorn-gunicorn-fast-api:python:3.8.8-slim-buster
 
 RUN pip install --upgrade pip
 #copy the depenedencies file to the working directory
@@ -9,7 +9,3 @@ WORKDIR /app/src
 
 #install depenedencies
 RUN pip install -r requirements.txt
-
-EXPOSE 8000
-
-CMD ["python","main.py"]
